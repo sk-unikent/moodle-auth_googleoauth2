@@ -17,8 +17,6 @@
 use League\OAuth2\Client\Entity\User;
 use League\OAuth2\Client\Token\AccessToken;
 
-require_once($CFG->dirroot . '/auth/googleoauth2/vendor/autoload.php');
-
 /**
  * Oauth2 Provider implementation for Microsoft app model v2.
  */

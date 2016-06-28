@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-require_once($CFG->dirroot . '/auth/googleoauth2/vendor/autoload.php');
+
 
 function googleoauth2_html_button($authurl, $providerdisplaystyle, $provider) {
         return '<a class="singinprovider" href="' . $authurl . '" style="' . $providerdisplaystyle .'">

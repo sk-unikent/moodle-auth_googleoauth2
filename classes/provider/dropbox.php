@@ -14,8 +14,6 @@
 // You should have received a copy of the GNU General Public License
 // along with Oauth2 authentication plugin for Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-require_once($CFG->dirroot . '/auth/googleoauth2/vendor/autoload.php');
-
 class provideroauth2dropbox extends \Pixelfear\OAuth2\Client\Provider\Dropbox {
 
     // THE VALUES YOU WANT TO CHANGE WHEN CREATING A NEW PROVIDER.
